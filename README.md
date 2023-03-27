@@ -17,5 +17,5 @@ Creating a npm package
   - You can use already created package names if you add use your account username: `@mateopineiroa/<package-name>`. Note that if you do this, by default it makes it a private package. But you can publish it as public using `npm publish --access=public`. Also, this can be made by default if you initialize npm using `npm init --scope=<username>`
 #
 ### Test Package Locally
-1) Run npm link in the package folder (This will expose it to the local node modules folder of the pc).
+1) Run `npm link in the package folder (This will expose it to the local node modules folder of the pc).
 2) In the project that you want to use the package, run `npm link <package-name>` (This will install the local npm package in the folder)
